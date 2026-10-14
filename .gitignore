@@ -1,0 +1,51 @@
+# Terraform working dirs and providers
+**/.terraform/*
+.terraform/
+
+# State (may contain secrets)
+*.tfstate
+*.tfstate.*
+terraform.tfstate.d/
+crash.log
+crash.*.log
+
+# Plan files
+*.tfplan
+tfplan
+tfplan.*
+
+# Local provider binaries copied into the repo
+**/linux_amd64/
+terraform-provider-*
+
+# Override files (usually local-only)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI config
+.terraformrc
+terraform.rc
+
+# Terragrunt
+.terragrunt-cache/
+**/.terragrunt-cache/
+
+# Build artifacts
+*.zip
+out.json
+
+# Secrets and local variable files
+*.auto.tfvars
+secret*.tfvars
+.env
+.env.*
+*.pem
+*.key
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
