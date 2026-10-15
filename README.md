@@ -197,8 +197,4 @@ Most exercises fit in the free tier or cost cents. These do not:
 - [ ] Registry modules (`terraform-aws-modules/vpc/aws`)
 - [ ] CI pipeline: `fmt`, `validate`, `tflint`, `checkov`, plan on pull request
 - [ ] `terraform test` for module testing
-## License
- 
-Personal learning material. Use freely at your own risk.
- 
-Claude finished the response
+
